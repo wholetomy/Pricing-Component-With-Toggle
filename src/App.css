@@ -107,3 +107,13 @@ input:checked+.slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+@media (max-width: 800px) {
+  .container {
+    height: unset;
+  }
+
+  .title h1 {
+    margin: 25px 0px;
+  }
+}
