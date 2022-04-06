@@ -67,9 +67,9 @@ function App() {
           </div>
         </div>
         <div className='cards'>
-          <Cards isPurple={Card1.isPurple} title={Card1.title} price={Card1.price} text1={Card1.text1} text2={Card1.text2} text3={Card1.text3} />
-          <Cards isPurple={Card2.isPurple} title={Card2.title} price={Card2.price} text1={Card2.text1} text2={Card2.text2} text3={Card2.text3} />
-          <Cards isPurple={Card3.isPurple} title={Card3.title} price={Card3.price} text1={Card3.text1} text2={Card3.text2} text3={Card3.text3} />
+          <Cards data={Card1} />
+          <Cards data={Card2} />
+          <Cards data={Card3} />
         </div>
       </div>
     </>
